@@ -1,0 +1,146 @@
+# ============================================
+# Dependencies
+# ============================================
+
+node_modules/
+
+
+# ============================================
+# Environment Variables
+# ============================================
+
+# Ignore all .env files (sensitive data)
+.env
+.env.*
+# Allow .env.example to be pushed (template file)
+!.env.example
+
+
+# ============================================
+# Build / Distribution
+# ============================================
+
+dist/
+build/
+*.min.js
+*.min.css
+
+
+# ============================================
+# Logs
+# ============================================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ============================================
+# OS Generated Files
+# ============================================
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================================
+# IDEs
+# ============================================
+
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# ============================================
+# Coverage
+# ============================================
+
+coverage/
+.nyc_output/
+*.lcov
+
+
+# ============================================
+# Temporary Files
+# ============================================
+
+*.tmp
+*.temp
+*.cache
+*.log
+
+
+# ============================================
+# TypeScript
+# ============================================
+
+*.tsbuildinfo
+*.ts.map
+
+
+# ============================================
+# Vite
+# ============================================
+
+.vite/
+vite.config.js.timestamp-*
+
+
+# ============================================
+# React / Frontend
+# ============================================
+
+.eslintcache
+.stylelintcache
+.prettierignore
+
+
+# ============================================
+# Testing
+# ============================================
+
+playwright-report/
+test-results/
+cypress/
+coverage/
+.nyc_output/
+
+
+# ============================================
+# Docker
+# ============================================
+
+# NOTE: Docker files are NOT ignored - they WILL be pushed to GitHub
+# If you want to ignore specific Docker files, uncomment below:
+
+# docker-compose.override.yml
+# *.dockerfile
+
+
+# ============================================
+# Miscellaneous
+# ============================================
+
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+serverless/
+.vercel
+.pnpm-store
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
